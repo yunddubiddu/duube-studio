@@ -1,0 +1,54 @@
+/* 영문적용폰트 */
+@font-face	{
+	font-family: 'DUUBE', serif;
+	src: url('/fonts/Bungee-Regular.woff2') format('woff2'), url('/fonts/Bungee-Regular.woff') format('woff');
+	font-weight: normal;
+  font-style: normal;
+}	
+/* 한글&숫자적용폰트 */
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('/fonts/IBMPlexSansKR-Thin.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 100;
+}
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('/fonts/IBMPlexSansKR-ExtraLight.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 200;
+}
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('/fonts/IBMPlexSansKR-Light.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 300;
+}
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('//fonts/IBMPlexSansKR-Regular.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 400;
+}
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('/fonts/IBMPlexSansKR-Medium.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 500;
+}
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('/fonts/IBMPlexSansKR-SemiBold.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 600;
+}
+@font-face	{
+	font-family:'DUUBE', serif;
+	src:url('/fonts/IBMPlexSansKR-Bold.woff') format('woff');
+	unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+0030-0039;	
+	font-weight: 700;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, div, a	{
+	font-family:'DUUBE', serif !important;
+}
